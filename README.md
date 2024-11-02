@@ -8,10 +8,11 @@
 - Nvidia drivers version 455 installed with the Ubuntu package repositories "apt "
 - Cuda version 11.10 installed with the Nvidia Cuda runfile installation method:
 ```https://developer.nvidia.com/cuda-11.1.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=debnetwork```
-- Create Python 3.9 virtual env:
-```python3.9 -m venv PYSKL_venv```
+```Create Python 3.9 virtual env:
+python3.9 -m venv PYSKL_venv
 activate the virtual environment:
-```source PYSKL_venv/bin/activate```
+source PYSKL_venv/bin/activate
+```
 - Pytorch installation in this virtual environment
 - Pytorch version 1.10 installed according to the Pytorch instructions for virtual env
 ```https://pytorch.org/get-started/previous-versions/#v1101```
