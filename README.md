@@ -1,5 +1,23 @@
 # PYSKL
 
+## Requirements
+## My setup information
+
+- A server with one Nvidia Tesla V100 GPU
+- Operating system is Ubuntu 20
+- Nvidia drivers version 455 installed with the Ubuntu package repositories "apt "
+- Cuda version 11.10 installed with the Nvidia Cuda runfile installation method:
+```https://developer.nvidia.com/cuda-11.1.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=debnetwork```
+- Python 3.9 virtual env
+- Pytorch installation
+- Pytorch version 1.10 installed according to the Pytorch instructions for virtual env
+```https://pytorch.org/get-started/previous-versions/#v1101```
+The command used is: 
+```pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f```
+- 
+
+## Below is the official ReadMe
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-skeleton-based-action-recognition/skeleton-based-action-recognition-on-ntu-rgbd)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd?p=revisiting-skeleton-based-action-recognition)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dg-stgcn-dynamic-spatial-temporal-modeling/skeleton-based-action-recognition-on-ntu-rgbd-1)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd-1?p=dg-stgcn-dynamic-spatial-temporal-modeling)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-skeleton-based-action-recognition/skeleton-based-action-recognition-on-kinetics)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-kinetics?p=revisiting-skeleton-based-action-recognition)
@@ -96,3 +114,6 @@ Any user can open a PR to contribute to PYSKL. The PR will be reviewed before be
 ## Contact
 
 For any questions, feel free to contact: dhd.efz@gmail.com
+
+
+
