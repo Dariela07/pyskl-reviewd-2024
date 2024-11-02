@@ -16,8 +16,8 @@ source PYSKL_venv/bin/activate
 - Pytorch installation in this virtual environment
 - Pytorch version 1.10 installed according to the Pytorch instructions for virtual env
 ```https://pytorch.org/get-started/previous-versions/#v1101```
-The command used is: 
-```pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html```
+```The command used is: 
+pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html```
 - Install the Pythorn requirements from the new requirements.txt file in the root path of the repository.
 
 ## Below is the official ReadMe
