@@ -84,7 +84,7 @@ nest-asyncio==1.5.6
 networkx==2.6.3
 notebook==6.5.2
 notebook_shim==0.2.2
-numpy
+numpy==1.22.3
 oauthlib==3.2.2
 onnx==1.13.0
 onnxruntime==1.13.1
@@ -171,3 +171,4 @@ xtcocotools==1.12
 yacs==0.1.8
 yapf==0.32.0
 zipp==3.11.0
+fvcore

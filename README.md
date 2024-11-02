@@ -19,7 +19,8 @@ source PYSKL_venv/bin/activate
 The command used is: 
 ```pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html```
 - Install the Pythorn requirements from the new requirements.txt file in the root path of the repository.  ```pip install -r "requirements_pyskl.txt" ```
-
+- In folder test_torch_2 and /pyskl folder to run 'bash tools/dist_train.sh configs/rgbpose_conv3d/rgb_only.py 1' ```(PYSKL_venv) jupyter-yixuan@tesla100:~/test_torch_2/pyskl$ bash tools/dist_train.sh configs/rgbpose_conv3d/rgb_only.py 1```
+- Under pyskl folder and inside data
 ## Below is the official ReadMe
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-skeleton-based-action-recognition/skeleton-based-action-recognition-on-ntu-rgbd)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd?p=revisiting-skeleton-based-action-recognition)
